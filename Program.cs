@@ -10,6 +10,8 @@
 using System;
 using System.Threading;
 
+// Function: Main
+// Description: The main execution loop of the Magic Numbers game.
 class Program
 {
     static void Main(string[] args)
@@ -82,10 +84,6 @@ class Program
                         else if ((playerInput == "3") && (numStonesRemaining >= 3))
                         {
                             numStonesToTake = 3;
-                        }
-                        else if (numStonesRemaining == 1)
-                        {
-                            numStonesToTake = 1;
                         }
                         else
                         {
