@@ -41,6 +41,10 @@ while (numStonesRemaining > 0)
         {
             numStonesToTake = 3;
         }
+        else if (numStonesRemaining == 1)
+        {
+            numStonesToTake = 1;
+        }
         else
         {
             Console.WriteLine("Invalied input. Try again.");
